@@ -1,17 +1,17 @@
 # 🚴‍♂️ Adventure Works Cycles — Data-Driven Business Optimization
 
 ## 📌 Table of Contents
-1. [Project Overview](#project-overview)  
-2. [Business Problem](#business-problem)  
-3. [Data Overview](#data-overview)  
-4. [Tools & Technologies Used](#tools--technologies)  
-5. [Approach](#approach)  
-   - [Data Preprocessing & Transformation](#data-preprocessing--transformation)  
-   - [Data Modelling](#data-modelling)  
-   - [Visualization & Dashboard Design](#visualization--dashboard-design)  
-6. [Key Business Insights](#key-business-insights-2010–2014)  
-7. [Recommendations](#recommendations)  
-8. [Conclusion](#conclusion)  
+1. [Project Overview](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-project-overview)  
+2. [Business Problem](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-business-problem)  
+3. [Data Overview](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-data-overview)  
+4. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-tools--technologies-used)  
+5. [Approach](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-approach)  
+   - [Data Preprocessing & Transformation](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#1%EF%B8%8F%E2%83%A3-data-preprocessing--transformation)  
+   - [Data Modelling](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#2%EF%B8%8F%E2%83%A3-data-modeling)  
+   - [Visualization & Dashboard Design](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-3%EF%B8%8F%E2%83%A3-visualization--dashboard-design)  
+6. [Key Business Insights](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-key-business-insights)  
+7. [Recommendations](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-recommendations)  
+8. [Conclusion](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-conclusion)  
 
 ---
 
