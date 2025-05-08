@@ -1,4 +1,4 @@
-# 🚴‍♂️ Adventure Works Cycles – Business Intelligence Dashboard
+# 🚴‍♂️ Adventure Works Cycles — Data-Driven Business Optimization
 
 ## 📌 Table of Contents
 1. [Project Overview](#project-overview)  
@@ -16,7 +16,7 @@
 ---
 
 ## 🧭 Project Overview
-This Power BI project addresses key operational and strategic challenges faced by Adventure Works Cycles, a global manufacturer of bicycles and related accessories. The objective is to:  
+This Power BI project addresses key operational and strategic challenges faced by **Adventure Works Cycles**, a global manufacturer of bicycles and related accessories. The objective is to:  
 • Optimize inventory management  
 • Reduce production costs  
 • Identify high-value customers  
@@ -34,9 +34,9 @@ By transforming complex datasets into clear, actionable recommendations, this so
 
 ## ❗ Business Problem
 Adventure Works Cycles faces the following challenges:  
-1. Targeting the Right Customers: Identifying the most profitable customer segments and engaging them with targeted offerings to increase lifetime value.  
-2. Expanding Product Availability: Understanding regional and category-wise sales performance to optimize inventory and extend market reach.  
-3. Reducing Production Costs: Minimizing inefficiencies in manufacturing, especially for high-cost product lines.  
+1. **Targeting the Right Customers:** Identifying the most profitable customer segments and engaging them with targeted offerings to increase lifetime value.  
+2. **Expanding Product Availability:** Understanding regional and category-wise sales performance to optimize inventory and extend market reach.  
+3. **Reducing Production Costs:** Minimizing inefficiencies in manufacturing, especially for high-cost product lines.  
 
 The company’s strategic goal is to grow its market share by focusing on the right customers, improving inventory flow, and managing costs effectively.
 
@@ -67,7 +67,7 @@ Historical data from 2010 to 2014 was provided, covering sales transactions, cus
 • Cleaned data using Power Query Editor:  
 &nbsp;&nbsp;&nbsp;&nbsp;o Removed irrelevant columns (e.g., Carrier Tracking Number, Customer Phone Number).  
 &nbsp;&nbsp;&nbsp;&nbsp;o Standardized data types and formatting.  
-• Appended FactInternetSales and FactInternetSalesNew into a unified Sales table for consistency across all years.  
+• Appended FactInternetSales and FactInternetSalesNew into a unified **Sales** table for consistency across all years.  
 • Created new calculated columns:  
 &nbsp;&nbsp;&nbsp;&nbsp;o Sales, ProductionCost, and Gross Profit for financial analysis.  
 • Simplified the snowflake schema:  
@@ -90,8 +90,8 @@ This categorization aids in profiling customer engagement and supporting loyalty
 
 ## 2️⃣ Data Modeling
 
-• Developed a Star Schema with the unified Sales table as the fact table.  
-• Established many-to-one relationships with all relevant dimension tables.  
+• Developed a **Star Schema** with the unified Sales table as the fact table.  
+• Established **many-to-one** relationships with all relevant dimension tables.  
 • Ensured referential integrity and enabled effective cross-filtering.  
 
 *Visual representation of the star schema designed to structure and streamline data for effective reporting and analysis.*
@@ -112,10 +112,10 @@ This categorization aids in profiling customer engagement and supporting loyalty
 ## 📈 Key Visuals:
 
 ### Sales by Product Category
-- A hierarchical visual allows drill-down from Product Category to Subcategory.  
-- A drill-through page shows detailed product-level data including Gross Profit and Stock Status.  
-- Applied conditional formatting with arrows to indicate profit trends.
-- Color-coded Stock Status: Red-Oversized, Green-Within Range, Yellow-Undersized. This supports proactive inventory decisions.  
+- A hierarchical visual allows drill-down from **Product Category** to **Subcategory**.  
+- A drill-through page shows detailed product-level data including **Gross Profit** and **Stock Status**.  
+- Applied **conditional formatting** with arrows to indicate profit trends.
+- **Color-coded Stock Status**: Red-Oversized, Green-Within Range, Yellow-Undersized. This supports proactive inventory decisions.  
 
 🧮 **Custom Stock Status Classification (DAX):**
 
@@ -138,7 +138,7 @@ IF(QuantityOrdered > ReorderPoint, "Oversized",
 ## Sales Trends by Product Color
 
 •	A bar chart highlights best-selling and underperforming colors.  
-•	Included a Key Influencer visual to analyze the impact of color on production costs. 
+•	Included a **Key Influencer visual** to analyze the impact of color on production costs. 
 
 *Snapshot of Key influencer Visual*
 
@@ -148,14 +148,14 @@ IF(QuantityOrdered > ReorderPoint, "Oversized",
 
 ## Regional Sales Funnel
 
-A funnel chart with tooltips offers insights into sales performance by Sales Territory and Country.
+A funnel chart with tooltips offers insights into sales performance by **Sales Territory** and **Country**.
 
 ---
 
 ## Customer Insights & Behavioral Analysis
 
-•	Users can interactively explore how factors like Occupation, Commute Distance, and Car Ownership influence purchasing behavior.  
-•	Bookmark navigation enables seamless switching between behavioral analysis views. 
+•	Users can interactively explore how factors like **Occupation**, **Commute Distance**, and **Car Ownership** influence purchasing behavior.  
+•	**Bookmark navigation** enables seamless switching between behavioral analysis views. 
 
 *Customer insights and behavioral analysis view*
 
@@ -165,7 +165,7 @@ A funnel chart with tooltips offers insights into sales performance by Sales Ter
 
 ## Order Distribution by Customer Tier
 
-•	A Decomposition Tree visual displays order volume by customer category.  
+•	A **Decomposition Tree** visual displays order volume by customer category.  
 •	Enables deep-dive into Top-Tier buyer profiles and supports targeted retention strategies.
 
 *Views of tailored tables capturing insights on top-tier, steady, and occasional customers.*
@@ -178,47 +178,47 @@ A funnel chart with tooltips offers insights into sales performance by Sales Ter
 
 ### 📈 Sales Trends
 • Orders increased steadily year-over-year.  
-• A notable sales spike in 2013, attributed to diversification into Accessories and Clothing.
+• **A notable sales spike in 2013**, attributed to diversification into **Accessories and Clothing**.
 
 ### 🚲 Product Profitability
-• Bikes, especially Road and Mountain Bikes, led in sales.  
+• Bikes, especially **Road** and **Mountain Bikes**, led in sales.  
 • Accessories and Clothing gained traction from 2012 onward.  
-• Top 20 products generated 63% of total sales.  
-• Mountain-200 Black (46) was the top-performing product in terms of profit.  
+• Top 20 products generated **63% of total sales**.  
+• **Mountain-200 Black (46)** was the top-performing product in terms of profit.  
 • Red and Silver bikes incurred high production costs.  
-• Overstocked high-margin products indicated potential inventory inefficiencies.
+• Overstocked high-margin products indicated **potential inventory inefficiencies**.
 
 ### 🌍 Regional Sales
-• North America, led by the Southwest U.S., dominated revenue.  
-• Australia and UK showed consistent growth.  
-• Canada underperformed, suggesting a need for localized strategies.
+• **North America**, led by the Southwest U.S., dominated revenue.  
+• **Australia** and **UK** showed consistent growth.  
+• **Canada** underperformed, suggesting a need for localized strategies.
 
 ### 👥 Customer Segmentation
-• A small group of Top-Tier Customers (246) accounted for a large revenue share.  
-• Occasional Buyers represented an underleveraged growth segment.  
-• Multi-car owners showed preference for premium offerings.  
-• Female professionals with mid-income levels displayed stable, high-value buying behavior.
+• A small group of **Top-Tier Customers (246)** accounted for a large revenue share.  
+• **Occasional Buyers** represented an underleveraged growth segment.  
+• **Multi-car owners** showed preference for premium offerings.  
+• **Female professionals with mid-income levels** displayed stable, high-value buying behavior.
 
 ---
 
 ## ✅ Recommendations
 
 ### 1. Sales & Marketing
-• Launch exclusive loyalty programs for top-tier customers.  
-• Expand focus on premium products (Mountain, Touring bikes) tailored for affluent, multi-car households.  
-• Continue investment in Accessories & Clothing as high-growth segments.
+• Launch **exclusive loyalty programs** for top-tier customers.  
+• Expand focus on **premium products** (Mountain, Touring bikes) tailored for affluent, multi-car households.  
+• Continue investment in **Accessories & Clothing** as high-growth segments.
 
 ### 2. Inventory Optimization
-• Reduce overstocking of large-volume, high-margin items.  
+• Reduce **overstocking** of large-volume, high-margin items.  
 • Align production with real-time demand trends and reorder points.
 
 ### 3. Cost Control
-• Revisit procurement strategies for Red and Silver paint/materials.  
-• Explore lean manufacturing techniques to minimize wastage and cut costs.
+• Revisit procurement strategies for **Red and Silver paint/materials**.  
+• Explore **lean manufacturing techniques** to minimize wastage and cut costs.
 
 ### 4. Regional Expansion
-• Strengthen marketing efforts in Canada and France to boost market penetration.  
-• Evaluate localized promotions and bundled offers to engage new customers.
+• Strengthen marketing efforts in **Canada** and **France** to boost market penetration.  
+• Evaluate **localized promotions and bundled offers** to engage new customers.
 
 ---
 
