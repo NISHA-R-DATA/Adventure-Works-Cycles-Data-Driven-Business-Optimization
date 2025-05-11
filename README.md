@@ -4,10 +4,10 @@
 
 ## 🧭 Project Overview
 This **Power BI project** addresses key **operational** and **strategic challenges** faced by **Adventure Works Cycles**, a global manufacturer of **bicycles** and related accessories. The objective is to:  
-• **Optimize inventory management**  
-• **Reduce production costs** 
-• **Identify high-value customers**  
-• **Expand market reach**  
+ - **Optimize inventory management**  
+ - **Reduce production costs**
+ - **Identify high-value customers**
+ - **Expand market reach**  
 
 Through detailed **data analysis** and **dynamic dashboards**, the project uncovers insights into **regional sales trends**, **customer behavior**, and **product profitability**. These insights empower **business stakeholders** to streamline **production planning**, target the right **customer segments**, and improve overall **operational efficiency**.  
 
