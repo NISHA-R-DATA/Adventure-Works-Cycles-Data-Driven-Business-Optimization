@@ -1,30 +1,17 @@
-# 🚴‍♂️ Adventure Works Cycles — Data-Driven Business Optimization
+![Title_image](https://github.com/user-attachments/assets/7f5fe202-0103-4a06-b0cb-11252ea37943)
 
-## 📌 Table of Contents
-1. [Project Overview](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-project-overview)  
-2. [Business Problem](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-business-problem)  
-3. [Data Overview](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-data-overview)  
-4. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-tools--technologies-used)  
-5. [Approach](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-approach)  
-   - [Data Preprocessing & Transformation](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#1%EF%B8%8F%E2%83%A3-data-preprocessing--transformation)  
-   - [Data Modelling](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#2%EF%B8%8F%E2%83%A3-data-modeling)  
-   - [Visualization & Dashboard Design](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-3%EF%B8%8F%E2%83%A3-visualization--dashboard-design)  
-6. [Key Business Insights](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-key-business-insights)  
-7. [Recommendations](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-recommendations)  
-8. [Conclusion](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-conclusion)  
 
----
 
 ## 🧭 Project Overview
-This Power BI project addresses key operational and strategic challenges faced by **Adventure Works Cycles**, a global manufacturer of bicycles and related accessories. The objective is to:  
-• Optimize inventory management  
-• Reduce production costs  
-• Identify high-value customers  
-• Expand market reach  
+This **Power BI project** addresses key **operational** and **strategic challenges** faced by **Adventure Works Cycles**, a global manufacturer of **bicycles** and related accessories. The objective is to:  
+• **Optimize inventory management**  
+• **Reduce production costs** 
+• **Identify high-value customers**  
+• **Expand market reach**  
 
-Through detailed data analysis and dynamic dashboards, the project uncovers insights into regional sales trends, customer behavior, and product profitability. These insights empower business stakeholders to streamline production planning, target the right customer segments, and improve overall operational efficiency.  
+Through detailed **data analysis** and **dynamic dashboards**, the project uncovers insights into **regional sales trends**, **customer behavior**, and **product profitability**. These insights empower **business stakeholders** to streamline **production planning**, target the right **customer segments**, and improve overall **operational efficiency**.  
 
-By transforming complex datasets into clear, actionable recommendations, this solution supports smarter decision-making and helps strengthen the company’s position through improved acquisition, retention, and resource allocation strategies.  
+By transforming **complex datasets** into clear, **actionable recommendations**, this solution supports **smarter decision-making** and helps strengthen the company’s position through improved **acquisition**, **retention**, and **resource allocation strategies**.  
 
 *A snapshot of the Power BI dashboard built for Adventure Works Cycles, offering a visual summary of key business metrics.*
 
@@ -32,6 +19,20 @@ By transforming complex datasets into clear, actionable recommendations, this so
 
 ---
 
+## 📌 Table of Contents
+1. [Business Problem](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-business-problem)  
+2. [Data Overview](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-data-overview)  
+3. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-tools--technologies-used)  
+4. [Approach](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-approach)  
+   - [Data Preprocessing & Transformation](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#1%EF%B8%8F%E2%83%A3-data-preprocessing--transformation)  
+   - [Data Modelling](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#2%EF%B8%8F%E2%83%A3-data-modeling)  
+   - [Visualization & Dashboard Design](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-3%EF%B8%8F%E2%83%A3-visualization--dashboard-design)  
+5. [Key Business Insights](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-key-business-insights)  
+6. [Recommendations](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-recommendations)  
+7. [Conclusion](https://github.com/NISHA-R-DATA/Adventure-Works-Cycles-Data-Driven-Business-Optimization?tab=readme-ov-file#-conclusion)  
+
+
+---
 ## ❗ Business Problem
 Adventure Works Cycles faces the following challenges:  
 1. **Targeting the Right Customers:** Identifying the most profitable customer segments and engaging them with targeted offerings to increase lifetime value.  
@@ -63,19 +64,19 @@ Historical data from 2010 to 2014 was provided, covering sales transactions, cus
 
 ## 1️⃣ Data Preprocessing & Transformation
 
-• Imported and consolidated raw Excel files within Power BI.  
-• Cleaned data using Power Query Editor:  
-&nbsp;&nbsp;&nbsp;&nbsp;o Removed irrelevant columns (e.g., Carrier Tracking Number, Customer Phone Number).  
-&nbsp;&nbsp;&nbsp;&nbsp;o Standardized data types and formatting.  
-• Appended FactInternetSales and FactInternetSalesNew into a unified **Sales** table for consistency across all years.  
-• Created new calculated columns:  
+• **Imported and consolidated** raw **Excel files** within **Power BI**.  
+• **Cleaned data** using **Power Query Editor**:  
+&nbsp;&nbsp;&nbsp;&nbsp;o **Removed irrelevant columns** (e.g., Carrier Tracking Number, Customer Phone Number).  
+&nbsp;&nbsp;&nbsp;&nbsp;o **Standardized data types** and **formatting**.  
+• **Appended** FactInternetSales and FactInternetSalesNew into a unified **Sales table** for **consistency** across all years.  
+• Created new **calculated columns**:  
 &nbsp;&nbsp;&nbsp;&nbsp;o Sales, ProductionCost, and Gross Profit for financial analysis.  
-• Simplified the snowflake schema:  
-&nbsp;&nbsp;&nbsp;&nbsp;o Merged DimProduct, DimProductSubcategory, and DimProductCategory into a single product dimension.  
-• Created a DimDate table:  
-&nbsp;&nbsp;&nbsp;&nbsp;o Generated continuous date range, with derived columns for Year, Quarter, and Financial Month (starting in April).  
-• Constructed CustomerFullName column in DimCustomer by combining first, middle, and last names.  
-• Customer Segmentation Logic:
+• Simplified the **snowflake schema**:  
+&nbsp;&nbsp;&nbsp;&nbsp;o **Merged** DimProduct, DimProductSubcategory, and DimProductCategory into a single **product dimension**.  
+• Created a **DimDate table**:  
+&nbsp;&nbsp;&nbsp;&nbsp;o Generated **continuous date range**, with derived columns for **Year**, **Quarter**, and **Financial Month** (starting in April).  
+• Constructed **CustomerFullName** column in DimCustomer by combining first, middle, and last names.  
+• **Customer Segmentation Logic**:
 A segmentation table was created using customer transaction frequency:
 
 | Category         | Criteria         |
@@ -84,7 +85,7 @@ A segmentation table was created using customer transaction frequency:
 | Steady Shoppers  | 5–9 orders        |
 | Occasional Buyers| Fewer than 5 orders |
 
-This categorization aids in profiling customer engagement and supporting loyalty campaigns.
+This **categorization** aids in profiling **customer engagement** and supporting **loyalty campaigns**.
 
 ---
 
@@ -224,7 +225,7 @@ A funnel chart with tooltips offers insights into sales performance by **Sales T
 
 ## 🏁 Conclusion
 
-This Power BI project effectively transformed fragmented raw data into a unified, insightful, and action-oriented analytical solution. By identifying key product trends, regional opportunities, and customer behavior patterns, it enables Adventure Works Cycles to make smarter, data-driven decisions. The dashboards serve not only as performance tracking tools but also as strategic assets for enhancing customer engagement, managing costs, and driving market expansion.
+This **Power BI project** effectively **transformed fragmented raw data** into a **unified**, **insightful**, and **action-oriented analytical solution**. By identifying key **product trends**, **regional opportunities**, and **customer behavior patterns**, it enables **Adventure Works Cycles** to make smarter, **data-driven decisions**. The **dashboards** serve not only as **performance tracking tools** but also as **strategic assets** for enhancing **customer engagement**, managing **costs**, and **driving market expansion**.
 
 Armed with these insights, Adventure Works Cycles is well-positioned to strengthen its competitive edge, streamline operations, and unlock untapped customer value across global markets.
 
