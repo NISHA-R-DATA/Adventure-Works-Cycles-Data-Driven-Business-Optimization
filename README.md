@@ -136,7 +136,7 @@ IF(QuantityOrdered > ReorderPoint, "Oversized",
 
 ---
 
-## Sales Trends by Product Color
+### Sales Trends by Product Color
 
 •	A bar chart highlights best-selling and underperforming colors.  
 •	Included a **Key Influencer visual** to analyze the impact of color on production costs. 
@@ -147,13 +147,13 @@ IF(QuantityOrdered > ReorderPoint, "Oversized",
 
 ---
 
-## Regional Sales Funnel
+### Regional Sales Funnel
 
 A funnel chart with tooltips offers insights into sales performance by **Sales Territory** and **Country**.
 
 ---
 
-## Customer Insights & Behavioral Analysis
+### Customer Insights & Behavioral Analysis
 
 •	Users can interactively explore how factors like **Occupation**, **Commute Distance**, and **Car Ownership** influence purchasing behavior.  
 •	**Bookmark navigation** enables seamless switching between behavioral analysis views. 
@@ -164,7 +164,7 @@ A funnel chart with tooltips offers insights into sales performance by **Sales T
 
 ---
 
-## Order Distribution by Customer Tier
+### Order Distribution by Customer Tier
 
 •	A **Decomposition Tree** visual displays order volume by customer category.  
 •	Enables deep-dive into Top-Tier buyer profiles and supports targeted retention strategies.
